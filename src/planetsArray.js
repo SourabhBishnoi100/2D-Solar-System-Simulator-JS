@@ -1,7 +1,7 @@
-import { Planet } from "./planetClass";
+import { PlanetClass } from "./planetClass";
 
-const Sun = new Planet("Sun", 0, 0, 0, 0, 20, 1.9e30, "yellow");
-const Mercury = new Planet(
+const Sun = new PlanetClass("Sun", 0, 0, 0, 0, 20, 1.9e30, "yellow");
+const Mercury = new PlanetClass(
   "Mercury",
   5.79e10,
   0,
@@ -11,10 +11,28 @@ const Mercury = new Planet(
   3.285e23,
   "gray"
 );
-const Venus = new Planet("Venus", 1.082e11, 0, 0, 35020, 6, 4.867e24, "orange");
-const Earth = new Planet("Earth", 1.496e11, 0, 0, 29783, 8, 5.972e24, "blue");
-const Mars = new Planet("Mars", 2.279e11, 0, 0, 24077, 6, 6.39e23, "red");
-const Jupiter = new Planet(
+const Venus = new PlanetClass(
+  "Venus",
+  1.082e11,
+  0,
+  0,
+  35020,
+  6,
+  4.867e24,
+  "orange"
+);
+const Earth = new PlanetClass(
+  "Earth",
+  1.496e11,
+  0,
+  0,
+  29783,
+  8,
+  5.972e24,
+  "blue"
+);
+const Mars = new PlanetClass("Mars", 2.279e11, 0, 0, 24077, 6, 6.39e23, "red");
+const Jupiter = new PlanetClass(
   "Jupiter",
   7.785e11,
   0,
@@ -24,9 +42,27 @@ const Jupiter = new Planet(
   1.898e27,
   "brown"
 );
-const Saturn = new Planet("Saturn", 1.433e12, 0, 0, 9690, 12, 5.683e26, "gold");
-const Uranus = new Planet("Uranus", 2.877e12, 0, 0, 6800, 10, 8.681e25, "cyan");
-const Neptune = new Planet(
+const Saturn = new PlanetClass(
+  "Saturn",
+  1.433e12,
+  0,
+  0,
+  9690,
+  12,
+  5.683e26,
+  "gold"
+);
+const Uranus = new PlanetClass(
+  "Uranus",
+  2.877e12,
+  0,
+  0,
+  6800,
+  10,
+  8.681e25,
+  "cyan"
+);
+const Neptune = new PlanetClass(
   "Neptune",
   4.503e12,
   0,
