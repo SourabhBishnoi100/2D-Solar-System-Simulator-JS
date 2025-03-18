@@ -7,6 +7,27 @@
   </head>
   <body>
     <canvas id="canvas"></canvas>
+    <div
+      id="planet-info"
+      style="
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        border-radius: 5px;
+        display: none;
+      "
+    >
+      <h3 id="info-name"></h3>
+      <p><strong>Mass:</strong> <span id="info-mass"></span> kg</p>
+      <p>
+        <strong>Distance from Sun:</strong> <span id="info-distance"></span> m
+      </p>
+      <p><strong>Velocity:</strong> <span id="info-velocity"></span> m/s</p>
+    </div>
+
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
